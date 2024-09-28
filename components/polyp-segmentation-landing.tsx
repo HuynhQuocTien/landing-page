@@ -21,6 +21,9 @@ export function PolypSegmentationLandingComponent() {
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#about">
             About
           </Link>
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#team">
+            Team
+          </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#contact">
             Contact
           </Link>
@@ -82,7 +85,7 @@ export function PolypSegmentationLandingComponent() {
               alt="Polyp Segmentation Visualization"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               height={310}
-              src="/placeholder.svg"
+              src="/img/images.jpg"
               width={550}
             />
               <div className="flex flex-col justify-center space-y-4">
@@ -114,6 +117,109 @@ export function PolypSegmentationLandingComponent() {
             </div>
           </div>
         </section>
+        <section id="team" className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">
+              Our Team
+            </h2>
+            <div className="grid gap-10 justify-items-center">
+              <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="flex flex-col items-center text-center">
+                  <Image
+                    alt="Huỳnh Quốc Tiến"
+                    className="mx-auto rounded-full object-cover object-center mb-4"
+                    height="150"
+                    src="https://avatars.githubusercontent.com/u/115643869?v=4"
+                    style={{
+                      aspectRatio: "150/150",
+                      objectFit: "cover",
+                    }}
+                    width="150"
+                  />
+                  <h3 className="text-xl font-bold">Huỳnh Quốc Tiến</h3>
+                  <p className="text-sm text-muted-foreground mb-2">Leader Research</p>
+                  <p className="text-sm text-muted-foreground">
+                  Students of the class Scientific research methods in information technology lecturer Dr. Do Nhu Tai
+                  </p>
+                </div>
+                <div className="flex flex-col items-center text-center">
+                  <Image
+                    alt="Nguyễn Anh Khoa"
+                    className="mx-auto rounded-full object-cover object-center mb-4"
+                    height="150"
+                    src="https://avatars.githubusercontent.com/u/142555542?v=4"
+                    style={{
+                      aspectRatio: "150/150",
+                      objectFit: "cover",
+                    }}
+                    width="150"
+                  />
+                  <h3 className="text-xl font-bold">Nguyễn Anh Khoa</h3>
+                  <p className="text-sm text-muted-foreground mb-2">Member</p>
+                  <p className="text-sm text-muted-foreground">
+                  Students of the class Scientific research methods in information technology lecturer Dr. Do Nhu Tai
+                  </p>
+                </div>
+                <div className="flex flex-col items-center text-center">
+                <Image
+                    alt="Nguyễn Thanh Tùng"
+                    className="mx-auto rounded-full object-cover object-center mb-4"
+                    height="150"
+                    src="https://avatars.githubusercontent.com/u/183198564?v=4"
+                    style={{
+                      aspectRatio: "150/150",
+                      objectFit: "cover",
+                    }}
+                    width="150"
+                  />
+                  <h3 className="text-xl font-bold">Nguyễn Thanh Tùng</h3>
+                  <p className="text-sm text-muted-foreground mb-2">Member</p>
+                  <p className="text-sm text-muted-foreground">
+                  Students of the class Scientific research methods in information technology lecturer Dr. Do Nhu Tai
+                  </p>
+                </div>
+              </div>
+              <div className="grid gap-10 sm:grid-cols-2">
+                <div className="flex flex-col items-center text-center">
+                  <Image
+                    alt="Phạm Xuân Diệu"
+                    className="mx-auto rounded-full object-cover object-center mb-4"
+                    height="150"
+                    src="https://avatars.githubusercontent.com/u/183173304?v=4"
+                    style={{
+                      aspectRatio: "150/150",
+                      objectFit: "cover",
+                    }}
+                    width="150"
+                  />
+                  <h3 className="text-xl font-bold">Phạm Xuân Diệu</h3>
+                  <p className="text-sm text-muted-foreground mb-2">Member</p>
+                  <p className="text-sm text-muted-foreground">
+                  Students of the class Scientific research methods in information technology lecturer Dr. Do Nhu Tai
+                  </p>
+                </div>
+                <div className="flex flex-col items-center text-center">
+                  <Image
+                    alt="Lý Hiếu Nghĩa"
+                    className="mx-auto rounded-full object-cover object-center mb-4"
+                    height="150"
+                    src="https://avatars.githubusercontent.com/u/182427645?v=4"
+                    style={{
+                      aspectRatio: "150/150",
+                      objectFit: "cover",
+                    }}
+                    width="150"
+                  />
+                  <h3 className="text-xl font-bold">Lý Hiếu Nghĩa</h3>
+                  <p className="text-sm text-muted-foreground mb-2">Member</p>
+                  <p className="text-sm text-muted-foreground">
+                  Students of the class Scientific research methods in information technology lecturer Dr. Do Nhu Tai
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="contact" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
@@ -138,7 +244,7 @@ export function PolypSegmentationLandingComponent() {
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-muted-foreground">
-          © 2024 Polyp Segmentation Technologies. All rights reserved.
+          © 2024 Huynh Quoc Tien. All rights reserved.
         </p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="#">
